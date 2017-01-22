@@ -117,21 +117,21 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="PushApp" id="GhH-pJ-wNX">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="dR0-VT-7cZ">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9Yg-EY-ctY">
-                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                        <barButtonItem key="leftBarButtonItem" image="iconmonstr-check-mark-4-32" style="plain" id="9ML-EJ-L2r">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="R8i-gA-XbS">
+                                <rect key="frame" x="16" y="6" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Progress"/>
+                                <state key="normal" image="Chart"/>
                                 <connections>
-                                    <segue destination="kyr-Ma-0BR" kind="show" id="Kaq-lo-yRw"/>
+                                    <segue destination="kyr-Ma-0BR" kind="show" id="ZNq-bF-Jox"/>
                                 </connections>
                             </button>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Setting" style="plain" id="RJs-5F-Y1c">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9eE-MN-QRg">
-                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9eE-MN-QRg">
+                                <rect key="frame" x="327" y="6" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Settings"/>
+                                <state key="normal" image="Gear"/>
                                 <connections>
                                     <segue destination="Og6-te-tdX" kind="show" id="90w-hy-XEb"/>
                                 </connections>
@@ -286,9 +286,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Chart" width="32" height="32"/>
+        <image name="Gear" width="32" height="32"/>
         <image name="gym" width="564" height="1001"/>
+        <image name="iconmonstr-check-mark-4-32" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Kaq-lo-yRw"/>
+        <segue reference="ZNq-bF-Jox"/>
     </inferredMetricsTieBreakers>
 </document>
