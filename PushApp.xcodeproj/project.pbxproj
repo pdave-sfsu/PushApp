@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A56335581E35195C0007C074 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56335571E35195C0007C074 /* ProgressViewController.swift */; };
+		A563355B1E351A6C0007C074 /* dailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563355A1E351A6C0007C074 /* dailyTableViewCell.swift */; };
+		A563355D1E351EEA0007C074 /* weeklyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563355C1E351EEA0007C074 /* weeklyTableViewCell.swift */; };
+		A563355F1E351EF80007C074 /* monthlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563355E1E351EF80007C074 /* monthlyTableViewCell.swift */; };
+		A56335611E351F050007C074 /* yearlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56335601E351F050007C074 /* yearlyTableViewCell.swift */; };
+		A56335631E3525E00007C074 /* inputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56335621E3525E00007C074 /* inputViewController.swift */; };
+		A56335651E35260F0007C074 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56335641E35260F0007C074 /* SettingsViewController.swift */; };
 		A5EED1C01E348AC500535307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EED1BF1E348AC500535307 /* AppDelegate.swift */; };
 		A5EED1C21E348AC500535307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EED1C11E348AC500535307 /* ViewController.swift */; };
 		A5EED1C51E348AC500535307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EED1C31E348AC500535307 /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A56335571E35195C0007C074 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		A563355A1E351A6C0007C074 /* dailyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dailyTableViewCell.swift; sourceTree = "<group>"; };
+		A563355C1E351EEA0007C074 /* weeklyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weeklyTableViewCell.swift; sourceTree = "<group>"; };
+		A563355E1E351EF80007C074 /* monthlyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = monthlyTableViewCell.swift; sourceTree = "<group>"; };
+		A56335601E351F050007C074 /* yearlyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yearlyTableViewCell.swift; sourceTree = "<group>"; };
+		A56335621E3525E00007C074 /* inputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inputViewController.swift; sourceTree = "<group>"; };
+		A56335641E35260F0007C074 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A5EED1BC1E348AC500535307 /* PushApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EED1BF1E348AC500535307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EED1C11E348AC500535307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +49,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A56335561E3518D90007C074 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5EED1C11E348AC500535307 /* ViewController.swift */,
+				A56335571E35195C0007C074 /* ProgressViewController.swift */,
+				A56335621E3525E00007C074 /* inputViewController.swift */,
+				A56335641E35260F0007C074 /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A56335591E351A350007C074 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A563355A1E351A6C0007C074 /* dailyTableViewCell.swift */,
+				A563355C1E351EEA0007C074 /* weeklyTableViewCell.swift */,
+				A563355E1E351EF80007C074 /* monthlyTableViewCell.swift */,
+				A56335601E351F050007C074 /* yearlyTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		A5EED1B31E348AC500535307 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +90,9 @@
 		A5EED1BE1E348AC500535307 /* PushApp */ = {
 			isa = PBXGroup;
 			children = (
+				A56335591E351A350007C074 /* Cells */,
+				A56335561E3518D90007C074 /* View Controllers */,
 				A5EED1BF1E348AC500535307 /* AppDelegate.swift */,
-				A5EED1C11E348AC500535307 /* ViewController.swift */,
 				A5EED1C31E348AC500535307 /* Main.storyboard */,
 				A5EED1C61E348AC500535307 /* Assets.xcassets */,
 				A5EED1C81E348AC500535307 /* LaunchScreen.storyboard */,
@@ -136,8 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56335581E35195C0007C074 /* ProgressViewController.swift in Sources */,
+				A563355F1E351EF80007C074 /* monthlyTableViewCell.swift in Sources */,
+				A563355D1E351EEA0007C074 /* weeklyTableViewCell.swift in Sources */,
+				A56335631E3525E00007C074 /* inputViewController.swift in Sources */,
+				A563355B1E351A6C0007C074 /* dailyTableViewCell.swift in Sources */,
+				A56335611E351F050007C074 /* yearlyTableViewCell.swift in Sources */,
 				A5EED1C21E348AC500535307 /* ViewController.swift in Sources */,
 				A5EED1C01E348AC500535307 /* AppDelegate.swift in Sources */,
+				A56335651E35260F0007C074 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
