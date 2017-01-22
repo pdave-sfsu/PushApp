@@ -299,6 +299,7 @@
 				A5EED1D01E348AC500535307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
